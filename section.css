@@ -1,0 +1,16 @@
+.section {
+    align-items: center;
+    margin: 10px 0;
+    background-color: white;
+}
+
+.section__header {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid gainsboro;
+}
+
+.section__body {
+    padding: 20px;
+}

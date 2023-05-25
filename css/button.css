@@ -4,6 +4,9 @@
     width: 30px;
     height: 30px;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tasks__button--done {
@@ -16,11 +19,19 @@
     background-color: rgb(0, 158, 0);
 }
 
+.tasks__button:active {
+    background-color: rgb(55, 199, 55);
+}
+
 .tasks__button--remove {
-    background-color: rgb(192, 0, 0);
+    background-color: rgb(230, 42, 42);
     color: white;
 }
 
 .tasks__button--remove:hover {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 74, 74);
+}
+
+.tasks__button--remove:active {
+    background-color: rgb(255, 137, 137);
 }

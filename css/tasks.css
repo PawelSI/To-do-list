@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.list__item {
+.tasks__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-gap: 10px;

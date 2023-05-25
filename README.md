@@ -12,7 +12,7 @@ First write down any task you have to do, click "Dodaj zadanie" and you will see
 When you will do, click a green square - it will show you checkark and this task will be crossed out. 
 After all you can click a red square - it removes task.
 
-![How to use](gifmaker_me.gif)
+![How to use](gifmaker1_me.gif)
 
 ## Technologies used:
 

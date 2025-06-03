@@ -1,3 +1,32 @@
+.section__buttons {
+    display: grid;
+    grid-template-columns: 1fr 150px 170px;
+}
+
+
+.section__buttons--hideDoneTasks{ 
+    border: none;
+    color: teal;
+    background-color: white;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.section__buttons--finishAllTasks {
+    border: none;
+    color: teal;
+    background-color: white;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.finishAllTasks {
+    border: none;
+    color: teal;
+    background-color: white;
+    display: inline-block;
+}
+
 .tasks__button {
     background-color: green;
     border: none;
@@ -27,7 +56,7 @@
 .tasks__button--remove {
     background-color: rgb(230, 42, 42);
     color: white;
-    transition: 0.5s    ;
+    transition: 0.5s;
 }
 
 .tasks__button--remove:hover {
@@ -36,4 +65,12 @@
 
 .tasks__button--remove:active {
     background-color: rgb(255, 137, 137);
+}
+
+.section__buttons--hideDoneTasks:hover {
+    color: rgb(0, 175, 175);
+}
+
+.section__buttons--finishAllTasks:hover {
+    color: rgb(0, 175, 175);
 }

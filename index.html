@@ -18,7 +18,9 @@
 
 <body class="body">
     <div class="container">
+        
         <h2 class="header">Lista zadań</h2>
+        
         <section class="section">
             <h2 class="section__header">Dodaj nowe zadanie</h2>
             <div class="section__body">
@@ -30,9 +32,10 @@
         </section>
 
         <section class="section">
-            <h2 class="section__header">Lista zadań</h2>
-            <button class="hideDoneTasks js--hide">Ukryj ukończone</button>
-            <button class="finishAllTasks js--finishAll">Ukończ wszystkie</button>
+            <div class="section__buttons">
+                <h2 class="section__header">Lista zadań</h2>
+                <div class="js-buttons"></div>
+            </div>
             <div class="section__body">
                 <ul class="tasks js-tasks"></ul>
             </div>
